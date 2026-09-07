@@ -1,6 +1,6 @@
 # Find Catalogue privacy policy
 
-**Effective date:** 31 August 2026
+**Effective date:** 07 September 2026
 
 **Developer and data controller:** Benjamin Matthew Baker
 
