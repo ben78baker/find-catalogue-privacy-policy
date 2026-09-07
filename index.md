@@ -26,13 +26,19 @@ This catalogue is stored in the app's local container on your device. The develo
 
 Camera and photo-library access are used only when you choose to take or select a find photograph. Location access is used when you choose Instant Find or request the current location. You can deny these permissions and create records with manually entered or unknown discovery information.
 
-## Interactive maps and OpenStreetMap
+## Interactive maps, map search, and OpenStreetMap
 
-Interactive maps use tiles supplied by the OpenStreetMap Foundation. Only when you open a map, Find Catalogue requests tiles covering the displayed area. These requests disclose the displayed map area and technical connection information, including your IP address and application, device, operating-system, time, and requested-tile information, to OpenStreetMap and its delivery providers. They do not include your record title, photographs, research notes, or catalogue database.
+Find Catalogue uses services provided by the OpenStreetMap Foundation for interactive maps and place search.
 
-OpenStreetMap handles those requests under its [privacy policy](https://osmfoundation.org/wiki/Privacy_Policy).
+When you open an interactive map, Find Catalogue requests map tiles covering the displayed area. These requests can disclose the displayed map area and technical connection information, including your IP address and information about the application, device, operating system, time, and requested map resources, to OpenStreetMap and its service providers.
 
-The catalogue, coordinate entry, search, and all essential record-keeping features continue to work without opening an interactive map.
+When you choose to use the map search feature, the search text that you submit, such as a place name, postcode, or address, is sent to OpenStreetMap’s Nominatim search service so that it can return a matching location. Search requests also include technical connection information such as your IP address and information identifying Find Catalogue.
+
+Find Catalogue does not send your catalogue database, photographs, research notes, record titles, or saved find coordinates to the place-search service as part of a search request.
+
+OpenStreetMap processes requests to its services under the OpenStreetMap Foundation Privacy Policy. OpenStreetMap states that service usage records may be used for operating and securing its services, planning, research, and improving OpenStreetMap, including analysing Nominatim searches for missing addresses and postcodes.
+
+Using interactive maps and map search is optional. Your catalogue and its essential record-keeping features remain stored locally and can be used without submitting a place search.
 
 ## Sharing and exports
 
