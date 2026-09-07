@@ -1,6 +1,6 @@
 # Find Catalogue support
 
-Find Catalogue is a private, local-first catalogue for field finds on iPhone, Android phones, and macOS.
+Find Catalogue is a private, local-first catalogue for field finds.
 
 ## Contact
 
