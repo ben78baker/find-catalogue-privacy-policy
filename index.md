@@ -1,6 +1,6 @@
 # Find Catalogue privacy policy
 
-**Effective date:** 07 September 2026
+**Effective date:** 16 October 2026
 
 **Developer and data controller:** Benjamin Matthew Baker
 
@@ -32,7 +32,7 @@ Find Catalogue uses services provided by the OpenStreetMap Foundation for intera
 
 When you open an interactive map, Find Catalogue requests map tiles covering the displayed area. These requests can disclose the displayed map area and technical connection information, including your IP address and information about the application, device, operating system, time, and requested map resources, to OpenStreetMap and its service providers.
 
-When you choose to use the map search feature, the search text that you submit, such as a place name, postcode, or address, is sent to OpenStreetMap’s Nominatim search service so that it can return a matching location. Search requests also include technical connection information such as your IP address and information identifying Find Catalogue.
+When you choose to use the map search feature, the search text that you submit, such as a place name, postcode, or address, is sent to OpenStreetMap’s Nominatim search service so that it can return a matching location. Typing without submitting does not send a geocoding request. Search requests also include technical connection information such as your IP address and information identifying Find Catalogue.
 
 Find Catalogue does not send your catalogue database, photographs, research notes, record titles, or saved find coordinates to the place-search service as part of a search request.
 
@@ -42,9 +42,11 @@ Using interactive maps and map search is optional. Your catalogue and its essent
 
 ## Sharing and exports
 
-Find Catalogue shares information only when you start an export and choose a destination through the device's share interface. Before an export is created, you choose whether exact coordinates are hidden or included.
+Find Catalogue does not automatically upload your catalogue, photographs, or find locations. It prepares files only when you choose Share, after which you select a destination through the device's share interface.
 
-When a PDF-and-photos bundle hides locations, supported photographs are re-encoded without embedded metadata, including GPS metadata. A photograph that cannot be sanitised safely is omitted and identified in the bundle manifest. When exact locations are included, the bundle can include copies of the original photographs.
+The available formats are a Share Card PNG, PDF Summary, PDF Full Record, and CSV. A Share Card never includes an exact findspot. Before a PDF or CSV is created, you choose whether exact coordinates are hidden or included. PDF Summary contains core catalogue details and the primary photograph. PDF Full Record contains the complete useful record content and its catalogue photographs.
+
+Photographs placed in Share Cards and PDFs are decoded and re-encoded for those generated files, so source EXIF and GPS metadata are not carried into them.
 
 After you share or save a file, the receiving person, app, storage provider, or service processes it under their own terms and privacy practices.
 
